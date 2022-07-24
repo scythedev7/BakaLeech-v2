@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:8.0-apache
 RUN apt-get update && \
     apt-get install -y python-pip libnet1 libnet1-dev libpcap0.8 libpcap0.8-dev git wget
 
